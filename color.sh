@@ -2,7 +2,7 @@
 # Bash Colors
 
 # running other bash script file
-. ./export.sh
+. ./common.sh
 
 error "It is working..."
 

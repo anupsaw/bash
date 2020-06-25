@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-. ./export.sh
+. ./common.sh
 
 info "Automate committing starts..."
 
