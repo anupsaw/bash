@@ -30,13 +30,15 @@ fi
 echo $MSG
 
 
-FILES=$(git status --porcelain)
+# FILES=$(git status --porcelain)
+
+git status --porcelain
 
 git add .
-echo "git added all changes... $FILES"
+success "git added all changes..."
 
 git commit -m "$MSG"
-echo "git committed all staged files... $FILES"
+success "git committed all staged files..."
 
 git push
-echo "git pushed allf file to origin... $FILES"
+success "git pushed allf file to origin..."
