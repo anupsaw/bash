@@ -41,4 +41,4 @@ git commit -m "$MSG"
 success "git committed all staged files..."
 
 git push
-success "git pushed allf file to origin..."
+success "git pushed all file to origin..."
