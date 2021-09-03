@@ -18,7 +18,6 @@ while :; do
         break
         ;;
     esac
-
 done
 
 if [[ -z "$MSG" ]]; then
@@ -26,9 +25,6 @@ if [[ -z "$MSG" ]]; then
     info "example :- ./commit.sh -m 'bash learning commit'"
     exit 1
 fi
-
-echo $MSG
-
 
 # FILES=$(git status --porcelain)
 
